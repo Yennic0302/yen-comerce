@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://yennic0302.github.io/yen-comerce/",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode development",
