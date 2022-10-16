@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Samsung Galaxy S10",
+      "category": "phones",
+      "price": 300,
+      "items": 1,
+      "description": "The Samsung Galaxy S10 arrives in 2019 improving the Galaxy S9 in several aspects. The Galaxy S10 has a 6.1-inch QHD+ Dynamic AMOLED screen, and is powered by the new Exynos 9820 octa-core processor or a Snapdragon 855, with 8GB of RAM and 128GB or 512GB of storage. The main camera of the Galaxy S10 is triple, with a 12 MP main sensor with OIS, a 12 MP telephoto sensor with AF, and a 16 MP ultra-wide lens. The front camera is 10 MP. Completing its features, the Galaxy S10 has a fingerprint reader embedded in the screen, USB-C port, stereo speakers optimized by AKG, Dolby Atmos sound, 3400 mAh battery with fast wireless charging, reversible charging to function as a power bank and Android 9.0 Pie with One UI interface.",
+      "image": "samsung-galaxy-s10.png"
+    },
+    {
+      "id": "2",
+      "name": "iPhone 11 64GB",
+      "category": "phones",
+      "price": 2124,
+      "items": 1,
+      "description": "The hardware and software of the iPhone 11 come together so that the battery of this equipment lasts up to 1 hour more than the iPhone XR, is more efficient and has fast and wireless charging. The power of its A13 Bionic processor optimizes its energy consumption so that you can do everything much faster and smoother, The device's functionalities are designed to protect the user's personal information, Two 12 MP camera system. The smartphone's wide-angle camera focuses three times faster in low light, and the ultra-wide-angle camera covers four times the field of view. It's perfect for landscape photos, spacious interiors, and for recording moving subjects; when you are recording the zoom is not only for the image but also for the audio. iPhone 11 also allows you to quickly and easily edit photos and videos, Spatial Audio Playback, which simulates surround sound. In addition, the equipment has Dolby Atmos that allows sound to circulate around you in a 3D space. With iPhone 11 you can link two pairs of AirPods or Beats and set the maximum volume to your liking.",
+      "image": "iphone-11-64gb.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Xiaomi Redmi Note 11",
+      "category": "phones",
+      "price": 309,
+      "items": 1,
+      "description": "Immerse yourself in a world of wonder: The backlit display offers the latest in brightness, contrast, color calibration and resolution. 90Hz refresh rate: Flawless touch screen and display: Enjoy your content with a smooth and uninterrupted 90Hz refresh rate. Seamlessly browse your social networks or experience powerful and responsive gaming, Snapdragon® 680 6nm Comprehensive performance, ready for any challenge: This processor is not only fast and powerful, but also runs with the process Low-power 6nm to deliver high performance while improving battery life. Faster loading speeds with UFS 2.2 and accelerated writing thanks to Write Booster, which offers efficient application installation, launching and caching of files at high speed, as well as reading and writing of large files, Quick Charge Pro 33W with 5000mAh Big Battery: Charge up to 100% in about an hour with the Redmi Note 11's 33W Fast Charge Pro, thanks to the new Redmi Note MMT technology. Enjoy the transformative benefits of fast charging.",
+      "image": "note-11.png"
+    }
+  ]
+}

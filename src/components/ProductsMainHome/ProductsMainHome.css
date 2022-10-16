@@ -1,0 +1,15 @@
+.products-main {
+  position: relative;
+  margin-top: 2rem;
+  margin-top: 4rem;
+  height: 20rem;
+  width: 100%;
+}
+
+.container-cards-products {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}

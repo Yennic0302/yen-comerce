@@ -1,0 +1,21 @@
+.results-products-conatiner {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.title-results-search {
+  align-self: flex-start;
+}
+
+.result-search-products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 450px) {
+  .result-search-products {
+    justify-content: left;
+  }
+}

@@ -1,0 +1,198 @@
+/* Initial properties */
+:root {
+  --first-color: #4194f3;
+  --first-alpha-color: rgba(35, 185, 245, 0.75);
+  --second-color: #14192d;
+  --second-alpha-color: rgba(20, 25, 45, 0.75);
+  --third-color: #2957d6;
+  --third-alpha-color: rgba(43, 77, 172, 0.795);
+  --white-color: #fff;
+  --gray-light-color: #f3f3f3;
+  --gray-color: #ccc;
+  --gray-dark-color: #666;
+  --black-color: #000;
+  --link-color: #509ee3;
+  --title-color: #333;
+  --text-color: #222;
+  --white-alpha-color: rgba(255, 255, 255, 0.5);
+  --black-alpha-color: rgba(0, 0, 0, 0.5);
+  --font: "Raleway", "sans-serif";
+  --max-width: 1270px;
+  --header-height: 4rem;
+}
+
+/* Reset styles */
+
+html {
+  box-sizing: border-box;
+  font-family: var(--font);
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--text-color);
+}
+
+a {
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h6 {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+}
+/* Utilities */
+
+.box-shadow-1 {
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--max-width);
+}
+
+/* Themes page */
+
+/* theme ligth */
+
+.mc-theme-l {
+  color: #222;
+}
+.mc-app-l {
+  color: rgba(35, 185, 245, 0.75);
+}
+
+.tsc-l {
+  -webkit-text-stroke: 2px rgba(35, 185, 245, 0.75);
+}
+.mc-app-l:hover {
+  color: #2957d6;
+}
+
+.mc-app-l:active {
+  opacity: 1;
+  color: #2957d6;
+}
+.mct-l {
+  color: #222;
+}
+
+.mct-l::placeholder {
+  color: #222;
+}
+.sct-l {
+  color: #fff;
+}
+.tct-l {
+  color: #333;
+}
+.bgm-l {
+  background-color: #fff;
+}
+.bgs-l {
+  background-color: #ddd;
+}
+.bgt-l {
+  background-color: #888;
+}
+.bgf-l {
+  background-color: #ddd;
+}
+
+/* theme dark */
+
+.mc-theme-d {
+  color: #fff;
+}
+.mc-app-d {
+  color: rgba(35, 185, 260);
+  transition: all 0.5s;
+}
+
+.tsc-d {
+  -webkit-text-stroke: 3px rgba(35, 185, 260);
+}
+
+.mc-app-d:hover {
+  color: rgba(35, 200, 260);
+}
+
+.mc-app-d:active {
+  opacity: 1;
+  color: rgba(35, 200, 260);
+  box-shadow: 1px 1px 5px #333;
+}
+
+.mct-d {
+  color: #fff;
+}
+.mct-d::placeholder {
+  color: #fff;
+}
+.sct-d {
+  color: #333;
+}
+.tct-d {
+  color: #ddd;
+}
+.bgm-d {
+  background-color: #111;
+}
+.bgs-d {
+  background-color: #333;
+}
+.bgt-d {
+  background-color: #666;
+}
+.bgf-d {
+  background-color: #444;
+}
