@@ -606,7 +606,7 @@ p {
 
   @keyframes vanish-options-theme {
     0% {
-      width: 8rem;
+      width: 4rem;
     }
     50% {
       width: 2rem;
@@ -628,7 +628,7 @@ p {
       width: 2rem;
     }
     100% {
-      width: 8rem;
+      width: 4rem;
     }
   }
 }
